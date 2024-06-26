@@ -24,4 +24,4 @@ In an attempt to create resources while brushing up on material, these pages wil
 
 If you find any issues or would like to see the github repository for this site, click on the github logo by the search bar in the top right and follow the options.
 
-My website is [here](https://jtyler13.github.io) to get in contact in more traditional ways.
+My website is [here](https://jtyler13.github.io/){.external target="_blank"} to get in contact in more traditional ways.
