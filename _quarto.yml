@@ -6,12 +6,15 @@ website:
   title: "Bayesian Analysis in R and Stan"
   page-navigation: true
   back-to-top-navigation: true
+  bread-crumbs: false
+  search: 
+    location: navbar
+    type: overlay
   
   navbar: true
   
   sidebar:
     style: "floating"
-    search: true
     contents:
     - index.qmd
     - auto: "*"
@@ -25,7 +28,7 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme: yeti
     css: styles.css
     toc: true
     page-layout: article

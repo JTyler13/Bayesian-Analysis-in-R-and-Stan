@@ -4,9 +4,20 @@
     "href": "index.html",
     "title": "Introduction",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n Back to top",
+    "text": "Back to top",
     "crumbs": [
       "Introduction"
+    ]
+  },
+  {
+    "objectID": "Section 1/Install & Syntax.html",
+    "href": "Section 1/Install & Syntax.html",
+    "title": "Installing & Syntax",
+    "section": "",
+    "text": "Test\n\n\n\n Back to top",
+    "crumbs": [
+      "Section 1",
+      "Installing & Syntax"
     ]
   }
 ]
