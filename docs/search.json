@@ -1,13 +1,46 @@
 [
   {
-    "objectID": "1. Getting Started/Install & Syntax.html",
-    "href": "1. Getting Started/Install & Syntax.html",
-    "title": "Installing & Syntax",
+    "objectID": "1. Doing Bayesian Data Analysis/Getting Started_DBDA.html",
+    "href": "1. Doing Bayesian Data Analysis/Getting Started_DBDA.html",
+    "title": "Getting Started",
     "section": "",
-    "text": "Test\n\n\n\n Back to top",
+    "text": "Back to top",
     "crumbs": [
-      "1. Getting Started",
-      "Installing & Syntax"
+      "1. Doing Bayesian Data Analysis",
+      "Getting Started"
+    ]
+  },
+  {
+    "objectID": "2. Statistical Rethinking/Getting Started_SR.html",
+    "href": "2. Statistical Rethinking/Getting Started_SR.html",
+    "title": "Getting Started",
+    "section": "",
+    "text": "Back to top",
+    "crumbs": [
+      "2. Statistical Rethinking",
+      "Getting Started"
+    ]
+  },
+  {
+    "objectID": "3. BDA/Getting Started_BDA.html",
+    "href": "3. BDA/Getting Started_BDA.html",
+    "title": "Getting Started",
+    "section": "",
+    "text": "Back to top",
+    "crumbs": [
+      "3. BDA",
+      "Getting Started"
+    ]
+  },
+  {
+    "objectID": "4. Data Analysis Using Regression and Multilevel:Hierarchical Models/Getting Started_DAUR.html",
+    "href": "4. Data Analysis Using Regression and Multilevel:Hierarchical Models/Getting Started_DAUR.html",
+    "title": "Getting Started",
+    "section": "",
+    "text": "Back to top",
+    "crumbs": [
+      "4. Data Analysis Using Regression and Multilevel:Hierarchical Models",
+      "Getting Started"
     ]
   },
   {
