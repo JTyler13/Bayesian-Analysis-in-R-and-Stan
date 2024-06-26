@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Getting Started With R & Stan"
+  title: "Bayesian Analysis in R and Stan"
   page-navigation: true
   back-to-top-navigation: true
   

@@ -1,5 +1,5 @@
 ---
-title: "Getting Started With R & Stan"
+title: "Introduction"
 ---
 
 This is a Quarto website.
