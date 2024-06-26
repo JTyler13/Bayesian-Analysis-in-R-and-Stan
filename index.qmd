@@ -2,3 +2,25 @@
 title: "Introduction"
 author: Josh Tyler 
 ---
+
+# What is this site for?
+
+This site walks through examples from 4 different textbooks:
+
+-   BDA (3^rd^ Edition)
+
+-   Statistical Rethinking (2^nd^ Edition)
+
+-   Doing Bayesian Data Analysis (2^nd^ Edition)
+
+-   Data Analysis Using Regression and Multilevel/Hierarchical Models (1^st^ Edition)
+
+# Why is it a bit of a mess?
+
+In an attempt to create resources while brushing up on material, these pages will initially read like a series of Bayesian rants. In due course, as I become better at Quarto, Stan and general coherence, these pages could well end up as a teaching resource!
+
+# Bugs, Issues & Feedback
+
+If you find any issues or would like to see the github repository for this site, click on the github logo by the search bar in the top right and follow the options.
+
+My website is [here](jtyler13.github.io) to get in contact in more traditional ways.

@@ -9,9 +9,16 @@ website:
   bread-crumbs: false
   search: 
     location: navbar
-    type: overlay
+    type: textbox
   
-  navbar: true
+  navbar: 
+    tools:
+    - icon: github
+      menu:
+        - text: Source Code
+          href:  https://github.com/JTyler13/Bayesian-Analysis-in-R-and-Stan
+        - text: Report a Bug or Issue
+          href:  https://github.com/JTyler13/Bayesian-Analysis-in-R-and-Stan/issues/new
   
   sidebar:
     style: "floating"
