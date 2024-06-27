@@ -1,5 +1,5 @@
 ---
-title: "Getting Started"
+title: "Thinking Differently About Probability"
 format: html
 editor: visual
 author: Josh Tyler 

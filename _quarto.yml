@@ -6,7 +6,7 @@ website:
   title: "Bayesian Analysis in R and Stan - An Adventure"
   page-navigation: true
   back-to-top-navigation: true
-  bread-crumbs: false
+  bread-crumbs: true
   search: 
     location: navbar
     type: textbox
