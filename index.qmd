@@ -1,7 +1,7 @@
 ---
 title: "Introduction"
 author: Josh Tyler 
-date: today
+date-modified: last-modified
 ---
 
 # What is this site for?
