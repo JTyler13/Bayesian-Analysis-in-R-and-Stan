@@ -3,5 +3,5 @@ title: "Getting Started"
 format: html
 editor: visual
 author: Josh Tyler 
-date: today
+date-modified: last-modified
 ---
