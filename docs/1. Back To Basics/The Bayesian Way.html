@@ -8,7 +8,7 @@
 
 <meta name="author" content="Josh Tyler">
 
-<title>Bayesian Analysis in R and Stan - An Adventure - The Bayesian Way</title>
+<title>An Adventure in Bayesian Analysis - The Bayesian Way</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -69,6 +69,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -81,7 +110,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../index.html">
-    <span class="navbar-title">Bayesian Analysis in R and Stan - An Adventure</span>
+    <span class="navbar-title">An Adventure in Bayesian Analysis</span>
     </a>
   </div>
         <div class="quarto-navbar-tools tools-end">
@@ -162,7 +191,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#bayes-rule" id="toc-bayes-rule" class="nav-link active" data-scroll-target="#bayes-rule">Bayes Rule</a></li>
+  <li><a href="#bayes-theorum" id="toc-bayes-theorum" class="nav-link active" data-scroll-target="#bayes-theorum">Bayes Theorum</a></li>
   </ul>
 </nav>
     </div>
@@ -200,8 +229,11 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="bayes-rule" class="level1">
-<h1>Bayes Rule</h1>
+<section id="bayes-theorum" class="level1">
+<h1>Bayes Theorum</h1>
+<p><span id="eq-bayes1"><span class="math display">\[Pr(\theta|D)=\frac{Pr(D|\theta) Pr(\theta)}{Pr(D)} \tag{1}\]</span></span></p>
+<p><span id="eq-bayes2"><span class="math display">\[Pr(\theta|D)=\frac{Pr(D|\theta) Pr(\theta)}{\int Pr(D|\theta^*) Pr(\theta^*) d\theta^*} \tag{2}\]</span></span></p>
+<p>where <span class="math inline">\(Pr(\theta|D)\)</span> is the Posterior, <span class="math inline">\(Pr(D|\theta)\)</span> is the Likelihood, <span class="math inline">\(Pr(\theta)\)</span> is the Prior and <span class="math inline">\(Pr(D)\)</span> or <span class="math inline">\(\int Pr(D|\theta^*) Pr(\theta^*) d\theta^*\)</span> is the Marginal Likelihood or Evidence.</p>
 
 
 </section>
