@@ -8,15 +8,7 @@ website:
   back-to-top-navigation: true
   bread-crumbs: true
   
-  navbar: 
-    tools:
-    - icon: github
-      menu:
-        - text: Source Code
-          href:  https://github.com/JTyler13/Bayesian-Analysis-in-R-and-Stan
-        - text: Report a Bug or Issue
-          href:  https://github.com/JTyler13/Bayesian-Analysis-in-R-and-Stan/issues/new
-  
+    
   sidebar:
     style: "floating"
     contents:
@@ -26,8 +18,18 @@ website:
     collapse-level: 2
     search: true
     
+    tools:
+    - icon: github
+      menu:
+        - text: Source Code
+          href:  https://github.com/JTyler13/Bayesian-Analysis-in-R-and-Stan
+        - text: Report a Bug or Issue
+          href:  https://github.com/JTyler13/Bayesian-Analysis-in-R-and-Stan/issues/new
+  
+    
   page-footer:
     border: true
+    background: "#45B39D"
     left: Copyright 2024 - Josh Tyler
     right: 
       - text: "Probabilistic Programming and its applications in Evolution, Biodiversity & Health"

@@ -6,9 +6,8 @@ date-modified: last-modified
 
 # Bayes Theorum
 
-$$Pr(\theta|D)=\frac{Pr(D|\theta) Pr(\theta)}{Pr(D)}$${#eq-bayes1}
+$$Pr(\theta|D)=\frac{Pr(D|\theta) Pr(\theta)}{Pr(D)}$$ {#eq-bayes1}
 
-$$Pr(\theta|D)=\frac{Pr(D|\theta) Pr(\theta)}{\int Pr(D|\theta^*) Pr(\theta^*) d\theta^*}$${#eq-bayes2}
-
+$$Pr(\theta|D)=\frac{Pr(D|\theta) Pr(\theta)}{\int Pr(D|\theta^*) Pr(\theta^*) d\theta^*}$$ {#eq-bayes2}
 
 where $Pr(\theta|D)$ is the Posterior, $Pr(D|\theta)$ is the Likelihood, $Pr(\theta)$ is the Prior and $Pr(D)$ or $\int Pr(D|\theta^*) Pr(\theta^*) d\theta^*$ is the Marginal Likelihood or Evidence.
