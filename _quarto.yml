@@ -3,13 +3,10 @@ project:
   output-dir: docs
 
 website:
-  title: "Bayesian Analysis in R and Stan - An Adventure"
+  title: "An Adventure in Bayesian Analysis"
   page-navigation: true
   back-to-top-navigation: true
   bread-crumbs: true
-  search: 
-    location: navbar
-    type: textbox
   
   navbar: 
     tools:
@@ -26,7 +23,8 @@ website:
     - index.qmd
     - auto: "*"
     border: true
-    collapse-level: 1
+    collapse-level: 2
+    search: true
     
   page-footer:
     border: true
@@ -36,7 +34,9 @@ website:
 
 format:
   html:
-    theme: minty
+    theme: 
+    - minty
+    - custom.scss
     css: styles.css
     toc: true
     page-layout: article

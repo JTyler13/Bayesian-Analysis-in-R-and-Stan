@@ -1,7 +1,0 @@
----
-title: "Thinking Differently About Probability"
-format: html
-editor: visual
-author: Josh Tyler 
-date-modified: last-modified
----

@@ -1,7 +1,0 @@
----
-title: "Sorting Out The Basics"
-format: html
-editor: visual
-author: Josh Tyler 
-date-modified: last-modified
----

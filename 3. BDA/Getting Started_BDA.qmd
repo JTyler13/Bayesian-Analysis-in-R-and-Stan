@@ -1,7 +1,0 @@
----
-title: "The Bayesian Must Read"
-format: html
-editor: visual
-author: Josh Tyler 
-date-modified: last-modified
----

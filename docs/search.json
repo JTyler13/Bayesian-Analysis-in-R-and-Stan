@@ -1,46 +1,13 @@
 [
   {
-    "objectID": "1. Doing Bayesian Data Analysis/Getting Started_DBDA.html",
-    "href": "1. Doing Bayesian Data Analysis/Getting Started_DBDA.html",
-    "title": "Sorting Out The Basics",
+    "objectID": "1. Back To Basics/The Bayesian Way.html",
+    "href": "1. Back To Basics/The Bayesian Way.html",
+    "title": "The Bayesian Way",
     "section": "",
-    "text": "Back to top",
+    "text": "Bayes Rule\n\n\n\n\n Back to top",
     "crumbs": [
-      "1. Doing Bayesian Data Analysis",
-      "Sorting Out The Basics"
-    ]
-  },
-  {
-    "objectID": "2. Statistical Rethinking/Getting Started_SR.html",
-    "href": "2. Statistical Rethinking/Getting Started_SR.html",
-    "title": "Thinking Differently About Probability",
-    "section": "",
-    "text": "Back to top",
-    "crumbs": [
-      "2. Statistical Rethinking",
-      "Thinking Differently About Probability"
-    ]
-  },
-  {
-    "objectID": "3. BDA/Getting Started_BDA.html",
-    "href": "3. BDA/Getting Started_BDA.html",
-    "title": "The Bayesian Must Read",
-    "section": "",
-    "text": "Back to top",
-    "crumbs": [
-      "3. BDA",
-      "The Bayesian Must Read"
-    ]
-  },
-  {
-    "objectID": "4. Data Analysis Using Regression and Multilevel:Hierarchical Models/Getting Started_DAUR.html",
-    "href": "4. Data Analysis Using Regression and Multilevel:Hierarchical Models/Getting Started_DAUR.html",
-    "title": "Multilevel Madness",
-    "section": "",
-    "text": "Back to top",
-    "crumbs": [
-      "4. Data Analysis Using Regression and Multilevel:Hierarchical Models",
-      "Multilevel Madness"
+      "Back To Basics",
+      "The Bayesian Way"
     ]
   },
   {
@@ -51,6 +18,16 @@
     "text": "What is this site for?\nThis site walks through examples from 4 different textbooks:\n\nBDA (3rd Edition)\nStatistical Rethinking (2nd Edition)\nDoing Bayesian Data Analysis (2nd Edition)\nData Analysis Using Regression and Multilevel/Hierarchical Models (1st Edition)\n\n\n\nWhy is it a bit of a mess?\nIn an attempt to create resources while brushing up on material, these pages will initially read like a series of Bayesian rants. In due course, as I become better at Quarto, Stan and general coherence, these pages could well end up as a teaching resource!\n\n\nBugs, Issues & Feedback\nIf you find any issues or would like to see the github repository for this site, click on the github logo by the search bar in the top right and follow the options.\nMy website is here to get in contact in more traditional ways.\n\n\n\n\n Back to top",
     "crumbs": [
       "Introduction"
+    ]
+  },
+  {
+    "objectID": "1. Back To Basics/index.html",
+    "href": "1. Back To Basics/index.html",
+    "title": "Back To Basics",
+    "section": "",
+    "text": "Back to top",
+    "crumbs": [
+      "Back To Basics"
     ]
   }
 ]

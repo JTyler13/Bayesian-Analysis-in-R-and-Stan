@@ -1,7 +1,0 @@
----
-title: "Multilevel Madness"
-format: html
-editor: visual
-author: Josh Tyler 
-date-modified: last-modified
----
