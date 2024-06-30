@@ -18,9 +18,9 @@ website:
     - icon: github
       menu:
         - text: Source Code
-          href:  https://github.com/JTyler13/Bayesian-Analysis-in-R-and-Stan
+          href:  https://github.com/JTyler13/Adventures-in-Bayesian-Analysis
         - text: Report a Bug or Issue
-          href:  https://github.com/JTyler13/Bayesian-Analysis-in-R-and-Stan/issues/new
+          href:  https://github.com/JTyler13/Adventures-in-Bayesian-Analysis/issues/new
 
     
   sidebar:
