@@ -2,12 +2,26 @@ project:
   type: website
   output-dir: docs
 
+
 website:
   title: "An Adventure in Bayesian Analysis"
   page-navigation: true
   back-to-top-navigation: true
   bread-crumbs: true
+  search: 
+    type: textbox
   
+  
+  navbar: 
+    background: "#45B39D"
+    tools:
+    - icon: github
+      menu:
+        - text: Source Code
+          href:  https://github.com/JTyler13/Bayesian-Analysis-in-R-and-Stan
+        - text: Report a Bug or Issue
+          href:  https://github.com/JTyler13/Bayesian-Analysis-in-R-and-Stan/issues/new
+
     
   sidebar:
     style: "floating"
@@ -16,16 +30,7 @@ website:
     - auto: "*"
     border: true
     collapse-level: 2
-    search: true
     
-    tools:
-    - icon: github
-      menu:
-        - text: Source Code
-          href:  https://github.com/JTyler13/Bayesian-Analysis-in-R-and-Stan
-        - text: Report a Bug or Issue
-          href:  https://github.com/JTyler13/Bayesian-Analysis-in-R-and-Stan/issues/new
-  
     
   page-footer:
     border: true
