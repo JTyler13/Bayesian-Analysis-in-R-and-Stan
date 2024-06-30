@@ -4,7 +4,7 @@ project:
 
 
 website:
-  title: "An Adventure in Bayesian Analysis"
+  title: "Adventures in Bayesian Analysis"
   page-navigation: true
   back-to-top-navigation: true
   bread-crumbs: true
