@@ -6,7 +6,7 @@ project:
 website:
   title: "Adventures in Bayesian Analysis"
   page-navigation: true
-  back-to-top-navigation: true
+  back-to-top-navigation: false
   bread-crumbs: true
   search: 
     type: textbox

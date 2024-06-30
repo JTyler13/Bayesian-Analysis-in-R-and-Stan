@@ -4,7 +4,7 @@
     "href": "1. Back To Basics/The Bayesian Way.html",
     "title": "The Bayesian Way",
     "section": "",
-    "text": "Bayes Theorum\n\\[Pr(\\theta|D)=\\frac{Pr(D|\\theta) Pr(\\theta)}{Pr(D)} \\tag{1}\\]\n\\[Pr(\\theta|D)=\\frac{Pr(D|\\theta) Pr(\\theta)}{\\int Pr(D|\\theta^*) Pr(\\theta^*) d\\theta^*} \\tag{2}\\]\nwhere \\(Pr(\\theta|D)\\) is the Posterior, \\(Pr(D|\\theta)\\) is the Likelihood, \\(Pr(\\theta)\\) is the Prior and \\(Pr(D)\\) or \\(\\int Pr(D|\\theta^*) Pr(\\theta^*) d\\theta^*\\) is the Marginal Likelihood or Evidence.\n\n\n\n\n Back to top",
+    "text": "Bayes Theorum\n\\[Pr(\\theta|D)=\\frac{Pr(D|\\theta) Pr(\\theta)}{Pr(D)} \\tag{1}\\]\n\\[Pr(\\theta|D)=\\frac{Pr(D|\\theta) Pr(\\theta)}{\\int Pr(D|\\theta^*) Pr(\\theta^*) d\\theta^*} \\tag{2}\\]\nwhere \\(Pr(\\theta|D)\\) is the Posterior, \\(Pr(D|\\theta)\\) is the Likelihood, \\(Pr(\\theta)\\) is the Prior and \\(Pr(D)\\) or \\(\\int Pr(D|\\theta^*) Pr(\\theta^*) d\\theta^*\\) is the Marginal Likelihood or Evidence.",
     "crumbs": [
       "Back To Basics",
       "The Bayesian Way"
@@ -15,7 +15,7 @@
     "href": "index.html",
     "title": "Introduction",
     "section": "",
-    "text": "What is this site for?\nThis site walks through examples from 4 different textbooks:\n\nBDA (3rd Edition)\nStatistical Rethinking (2nd Edition)\nDoing Bayesian Data Analysis (2nd Edition)\nData Analysis Using Regression and Multilevel/Hierarchical Models (1st Edition)\n\n\n\nWhy is it a bit of a mess?\nIn an attempt to create resources while brushing up on material, these pages will initially read like a series of Bayesian rants. In due course, as I become better at Quarto, Stan and general coherence, these pages could well end up as a teaching resource!\n\n\nBugs, Issues & Feedback\nIf you find any issues or would like to see the github repository for this site, click on the github logo by the search bar in the top right and follow the options.\nMy website is here to get in contact in more traditional ways.\n\n\n\n\n Back to top",
+    "text": "What is this site for?\nIn an attempt to create resources while brushing up on material, these pages will initially read like a series of Bayesian rants. In due course, as I become better at Quarto, Stan and general coherence, these pages could well end up as a teaching resource!\nThis site uses 4 textbooks as its basis:\n\nBDA (3rd Edition) (Gelman et al. 2013)\nStatistical Rethinking (2nd Edition) (McElreath 2020)\nDoing Bayesian Data Analysis (2nd Edition)\nData Analysis Using Regression and Multilevel/Hierarchical Models (1st Edition)\n\n\n\nBugs, Issues & Feedback\nIf you find any issues or would like to see the github repository for this site, click on the github logo by the search bar in the top right and follow the options.\nMy website is here to get in contact in more traditional ways.\n\n\n\n\n\nReferences\n\nGelman, Andrew, John B. Carlin, Hal S. Stern, David B. Dunson, Aki Vehtari, and Donald B. Rubin. 2013. Bayesian Data Analysis. Chapman; Hall/CRC. https://doi.org/10.1201/b16018.\n\n\nMcElreath, Richard. 2020. Statistical Rethinking. Chapman; Hall/CRC. https://doi.org/10.1201/9780429029608.",
     "crumbs": [
       "Introduction"
     ]

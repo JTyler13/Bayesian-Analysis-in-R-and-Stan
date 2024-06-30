@@ -21,7 +21,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -154,7 +174,6 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#what-is-this-site-for" id="toc-what-is-this-site-for" class="nav-link active" data-scroll-target="#what-is-this-site-for">What is this site for?</a></li>
-  <li><a href="#why-is-it-a-bit-of-a-mess" id="toc-why-is-it-a-bit-of-a-mess" class="nav-link" data-scroll-target="#why-is-it-a-bit-of-a-mess">Why is it a bit of a mess?</a></li>
   <li><a href="#bugs-issues-feedback" id="toc-bugs-issues-feedback" class="nav-link" data-scroll-target="#bugs-issues-feedback">Bugs, Issues &amp; Feedback</a></li>
   </ul>
 </nav>
@@ -182,7 +201,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">June 28, 2024</p>
+      <p class="date-modified">June 30, 2024</p>
     </div>
   </div>
     
@@ -195,17 +214,14 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="what-is-this-site-for" class="level1">
 <h1>What is this site for?</h1>
-<p>This site walks through examples from 4 different textbooks:</p>
+<p>In an attempt to create resources while brushing up on material, these pages will initially read like a series of Bayesian rants. In due course, as I become better at Quarto, Stan and general coherence, these pages could well end up as a teaching resource!</p>
+<p>This site uses 4 textbooks as its basis:</p>
 <ul>
-<li><p>BDA (3<sup>rd</sup> Edition)</p></li>
-<li><p>Statistical Rethinking (2<sup>nd</sup> Edition)</p></li>
+<li><p>BDA (3<sup>rd</sup> Edition) <span class="citation" data-cites="gelman2013">(<a href="#ref-gelman2013" role="doc-biblioref">Gelman et al. 2013</a>)</span></p></li>
+<li><p>Statistical Rethinking (2<sup>nd</sup> Edition) <span class="citation" data-cites="mcelreath2020">(<a href="#ref-mcelreath2020" role="doc-biblioref">McElreath 2020</a>)</span></p></li>
 <li><p>Doing Bayesian Data Analysis (2<sup>nd</sup> Edition)</p></li>
 <li><p>Data Analysis Using Regression and Multilevel/Hierarchical Models (1<sup>st</sup> Edition)</p></li>
 </ul>
-</section>
-<section id="why-is-it-a-bit-of-a-mess" class="level1">
-<h1>Why is it a bit of a mess?</h1>
-<p>In an attempt to create resources while brushing up on material, these pages will initially read like a series of Bayesian rants. In due course, as I become better at Quarto, Stan and general coherence, these pages could well end up as a teaching resource!</p>
 </section>
 <section id="bugs-issues-feedback" class="level1">
 <h1>Bugs, Issues &amp; Feedback</h1>
@@ -213,9 +229,17 @@ ul.task-list li input[type="checkbox"] {
 <p>My website is <a href="https://jtyler13.github.io/" class="external" target="_blank">here</a> to get in contact in more traditional ways.</p>
 
 
+
 </section>
 
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-gelman2013" class="csl-entry" role="listitem">
+Gelman, Andrew, John B. Carlin, Hal S. Stern, David B. Dunson, Aki Vehtari, and Donald B. Rubin. 2013. <em>Bayesian Data Analysis</em>. Chapman; Hall/CRC. <a href="https://doi.org/10.1201/b16018">https://doi.org/10.1201/b16018</a>.
+</div>
+<div id="ref-mcelreath2020" class="csl-entry" role="listitem">
+McElreath, Richard. 2020. <em>Statistical Rethinking</em>. Chapman; Hall/CRC. <a href="https://doi.org/10.1201/9780429029608">https://doi.org/10.1201/9780429029608</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
